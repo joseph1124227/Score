@@ -17,5 +17,6 @@ for i in score:
     
 print("不及格人數",count)
 
+print("分數平均:", sum(int(i) for i in score) / len(score))
 print("分數最大值", max(score))
 print("分數最小值", min(score))
