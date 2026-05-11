@@ -14,3 +14,4 @@ for i in score:
   if int(i)<60:
     print(i,end =" ")
 
+print("分數平均:", sum(int(i) for i in score) / len(score))
