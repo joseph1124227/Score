@@ -14,8 +14,7 @@ count=0
 for i in score:
   if int(i)<60:
     count+=1
-    
-print("不及格人數",count)
+print("不及格人數", count)
 
 print("分數最大值", max(score))
 print("分數最小值", min(score))
