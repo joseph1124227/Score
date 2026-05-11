@@ -9,9 +9,14 @@ Original file is located at
 
 enter_score=input("請輸入一串成績")
 score=enter_score.split()
+count=0
 
 for i in score:
   if int(i)<60:
-    print(i,end =" ")
+    count+=1
+    
+print("不及格人數",count)
 
 print("分數平均:", sum(int(i) for i in score) / len(score))
+print("分數最大值", max(score))
+print("分數最小值", min(score))
